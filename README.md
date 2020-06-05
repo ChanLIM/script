@@ -8,8 +8,9 @@ https://github.com/ChanLIM/script 페이지를 fork 합니다. (본인 repo) <br
 
 ## 1-2.
 본인 개인 서버에 접속하여 
-git clone https://github.com/본인계정/script.git
-git remote add upstream https://github.com/본인계정/script.git
+git clone https://github.com/본인계정/script.git <br>
+
+git remote add upstream https://github.com/본인계정/script.git<br>
 
 cd script <br>
 생성된 script 폴더로 가서, 
@@ -29,9 +30,9 @@ tar -czvf 본인이름.tar.gz . <br>
 
 ## 4.
 git checkout -b BRANCHNAME <br>
-git remote add BRANCHNAME https://github.com/본인계정/script.git
 git add 본인이름.tar.gz <br>
 git commit <br>
+
 git push origin BRANCHNAME <br> <br>
 를 차례로 입력하시고, <br>
 output으로 나온 주소 ex.) https://github.com/본인계정/script/pull/new/BRANCHNAME 
