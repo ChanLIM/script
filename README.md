@@ -3,7 +3,11 @@ https://github.com/ChanLIM/script 페이지를 fork 합니다. (본인 repo) <br
 본인의 repo에 script repository가 생기면 들어가서 git 주소 복사. <br>
 
 ## 1.
-서버에 접속하여 
+https://github.com/ChanLIM/script 페이지를 fork 합니다. (본인 repo) <br>
+본인의 repo에 script repository가 생기면 들어가서 git 주소 복사. <br>
+
+## 1-2.
+본인 개인 서버에 접속하여 
 git clone https://github.com/본인계정/script.git
 git remote add upstream https://github.com/본인계정/script.git
 
