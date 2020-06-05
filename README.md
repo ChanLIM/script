@@ -1,13 +1,15 @@
-#서버 이전을 위해 로그를 수집해달라는 요청이 들어와서 로그를 수집하려합니다.
-
+#서버 이전을 위해 로그를 수집해달라는 요청이 들어와서 로그를 수집하려합니다. <br>
+https://github.com/ChanLIM/script 페이지를 fork 합니다. (본인 repo) <br>
+본인의 repo에 script repository가 생기면 들어가서 git 주소 복사. <br>
 
 ## 1.
-서버에 접속하여 해당 repository를 fork 해옵니다.
-
-git clone https://github.com/ChanLIM/script.git
+서버에 접속하여 
+git clone https://github.com/본인계정/script.git
+git remote add upstream https://github.com/본인계정/script.git
 
 cd script <br>
 생성된 script 폴더로 가서, 
+
 
 ## 2.
 sudo sh cfg2html-linux.sh <br>
@@ -23,15 +25,18 @@ tar -czvf 본인이름.tar.gz . <br>
 
 ## 4.
 git checkout -b BRANCHNAME <br>
+git remote add BRANCHNAME https://github.com/본인계정/script.git
 git add 본인이름.tar.gz <br>
 git commit <br>
 git push origin BRANCHNAME <br> <br>
 를 차례로 입력하시고, <br>
-output으로 나온 주소 ex.) https://github.com/ChanLIM/script/pull/new/BRANCHNAME 
+output으로 나온 주소 ex.) https://github.com/본인계정/script/pull/new/BRANCHNAME 
 로 가서 
 
 ## 5.
-pull request 해주시기 바랍니다.
+pull request 해주시기 바랍니다.<br>
+Pull request 후 본인 repo에서 script repo는 삭제하시면 됩니다.
+
 
 참고사이트 : https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/
 
