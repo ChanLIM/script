@@ -6,7 +6,7 @@
 
 git clone https://github.com/ChanLIM/script.git
 
-cd script
+cd script <br>
 생성된 script 폴더로 가서, 
 
 ## 2.
