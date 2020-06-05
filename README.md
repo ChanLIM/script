@@ -9,24 +9,24 @@ git clone https://github.com/ChanLIM/script.git
 생성된 script 폴더로 가서, 
 
 ## 2.
-sudo sh cfg2html-linux.sh
+sudo sh cfg2html-linux.sh <br>
 로 해당 쉘 스크립트를 실행하시면, 다음 파일들이 생성됩니다.
 
-tako@2080ti:~/script/Linux/Cfg2html_Linux$ ls
-2080ti.err  2080ti.html  2080ti.partitions.save  2080ti.txt  cfg2html-linux.sh  README
+tako@2080ti:~/script/Linux/Cfg2html_Linux$ ls <br>
+2080ti.err  2080ti.html  2080ti.partitions.save  2080ti.txt  cfg2html-linux.sh  README <br>
 
 ## 3.
 해당 디렉토리에서 
-tar -czvf 본인이름.tar.gz .
+tar -czvf 본인이름.tar.gz . <br>
 로 나온 파일들을 압축하시고, (끝에 점 중요)
 
 ## 4.
-git checkout -b BRANCHNAME
-git add 본인이름.tar.gz
-git commit
-git push origin BRANCHNAME
-
-시에 나온 주소 ex.) https://github.com/ChanLIM/script/pull/new/BRANCHNAME 
+git checkout -b BRANCHNAME <br>
+git add 본인이름.tar.gz <br>
+git commit <br>
+git push origin BRANCHNAME <br> <br>
+를 차례로 입력하시고, <br>
+output으로 나온 주소 ex.) https://github.com/ChanLIM/script/pull/new/BRANCHNAME 
 로 가서 
 
 ## 5.
