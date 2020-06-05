@@ -1,3 +1,40 @@
+#서버 이전을 위해 로그를 수집해달라는 요청이 들어와서 로그를 수집하려합니다.
+
+
+## 1.
+서버에 접속하여 해당 repository를 fork 해옵니다.
+
+git clone https://github.com/ChanLIM/script.git
+
+생성된 script 폴더로 가서, 
+
+## 2.
+sudo sh cfg2html-linux.sh
+로 해당 쉘 스크립트를 실행하시면, 다음 파일들이 생성됩니다.
+
+tako@2080ti:~/script/Linux/Cfg2html_Linux$ ls
+2080ti.err  2080ti.html  2080ti.partitions.save  2080ti.txt  cfg2html-linux.sh  README
+
+## 3.
+해당 디렉토리에서 
+tar -czvf 본인이름.tar.gz .
+로 나온 파일들을 압축하시고, (끝에 점 중요)
+
+## 4.
+git checkout -b BRANCHNAME
+git add 본인이름.tar.gz
+git commit
+git push origin BRANCHNAME
+
+시에 나온 주소 ex.) https://github.com/ChanLIM/script/pull/new/BRANCHNAME 
+로 가서 
+
+## 5.
+pull request 해주시기 바랍니다.
+
+참고사이트 : https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/
+
+
 Cfg2Html (c) by ROSE SWE, Dipl.-Ing. Ralph Roth
 
 This is the "swiss army knife" for the ASE, CE, sysadmin etc.
